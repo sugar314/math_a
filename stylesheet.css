@@ -1,0 +1,112 @@
+body {
+  font-family: "Hiragino Maru Gothic ProN", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+.slide-wrapper {
+  text-align: center;
+  width: 90vw;
+  margin: 0 auto;
+  color: #5e6f84;
+  padding: 0px 0;
+}
+
+.slide-title {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.change-btn-wrapper {
+  width: 90vw;
+  margin: 20px auto;
+  font-size: 15px;
+}
+
+.change-btn-wrapper:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.prev-btn {
+  cursor: pointer;
+  float: left;
+  display: none;
+}
+
+.ans-btn{
+  display: inline-block;
+  cursor: pointer;
+}
+
+.next-btn {
+  cursor: pointer;
+  float: right;
+}
+
+.slides {
+  margin:0px;
+}
+
+.slide {
+  display: none;
+}
+
+.slide-ans {
+  display: none;
+}
+
+.active {
+  display: block;
+}
+
+.hide {
+  display:none;
+}
+
+.ans-active{
+  display: none;
+}
+
+.show{
+  display: block;
+}
+
+.slide img {
+  margin-left: -10vw;
+  width: 90vw;
+  height: auto;
+  border-radius: 5px;
+}
+
+.slide-ans img {
+  margin-left: -10vw;
+  width: 90vw;
+  height: auto;
+  border-radius: 5px;
+}
+
+
+.index-btn-wrapper {
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.index-btn {
+  display: inline-block;
+  color: #4e90af;
+  background-color: #e0f5ff;
+  width: 40px;
+  padding: 6px 0;
+  margin: 8px 5px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.index-btn:hover {
+  color: #fff;
+  background-color: #5cabd0;
+}
